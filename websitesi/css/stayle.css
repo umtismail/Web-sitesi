@@ -1,0 +1,169 @@
+header{ background:white; height: 150px; margin-bottom: 30px;}
+.yatayacilir-menu ul {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+.yatayacilir-menu ul li {
+float: right;
+height: 30px;
+top: 40px;
+width: 200px;
+position: relative;
+background-color: white;
+padding:3px;
+    font-weight: bold;
+font-family: Arial, sans serif;
+}
+.yatayacilir-menu ul li a {
+height: 30px;
+display: block;
+font-weight: normal;
+color: black;
+text-decoration: none;
+padding-left: 10px;
+line-height: 30px;
+font-size:14px;
+}
+.yatayacilir-menu ul li a:hover {
+height: 30px;
+display: block;
+font-weight: normal;
+text-decoration: underline;
+padding-left: 10px;
+line-height: 30px;
+background-color: white;
+font-size:14px;
+}
+.yatayacilir-menu ul li ul {
+position: absolute;
+left: 0px;
+top: 30px;
+display: none;
+}
+.yatayacilir-menu ul li:hover ul {
+display: block;
+z-index: 1;
+}
+.logo img{float: left; margin-left: 20px;}
+.genel{width:1300; margin: auto; margin-top: 10px; text-decoration: none;}
+.soz{font-size: 20px; margin: auto; font-weight: bold; width: 900px;  margin-top: 50px;}
+.buton{
+    margin-top: 20px;
+background-color:goldenrod;
+display:inline-block;
+cursor:pointer;
+text-decoration: none;
+color:black;
+font-family:Arial;
+font-size:19px;
+padding:20px 63px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+}
+.buton:hover {
+background-color:gold;;
+}
+.buton:active {
+position:relative;
+top:1px;
+}
+.urunler{height: 1000px; background: white; margin-top: 20px;}
+.urun{float: left; width: 550px; height: 500px; text-align: center;  padding: 10px; margin:10px;}
+.urun img{ height: 300px; margin: 20px;}
+.urun h2{padding: 5px; font-size: 40px; font-weight: bold;}
+.read{float: left; color: goldenrod; margin-top: 10px;}
+a{text-decoration: none;}
+.read:hover{color: gold; transition:1s; }
+.dow{height: 470px;} 
+.dow1{height:200px; margin-bottom: 20px;}
+.filim {float: left; width: 500px;}
+.filim h2 {font-size: 25px; padding: 10px; border-bottom: 2px dotted white; font-weight: bold; margin-bottom: 10px;}
+.filim img{float: left; margin-top: 10px; padding: 10px;}
+.filim p{padding: 10px;}
+footer{height: 300px; width: 100%; background: black;}
+.footer{ margin-top: 50px; position: absolute;left: 200px; width: 600px;}
+.footer ul li{float: left; font-size: 20px; color: gray;}
+.footer ul li a{display: block; padding:15px; color: white;}
+.footer ul li a:hover{color: dodgerblue; text-decoration: none;}
+.footer ul li ul li{display: block; float: none; color: white;}
+.iletisim{float: right;}
+/*-------------------------------Aboout Us-----------------------------------------*/
+
+.icerikler{height: 4300px; margin: auto;}
+.baslik{width: 550px; text-align: center; margin: auto; padding: 20px; font-weight: bold;}
+.baslik h2{font-size: 50px; font-weight: bold; margin-bottom: 5px;}
+.aciklama{height: 700px; margin:auto; width: 1200px; color: black;}
+.aciklama img{width:1200;height: 700}
+.hikaye{width: 450px; margin: auto; margin-top: 30px; font-size: 15px; }
+.ic{width: 1300px; height: 590px; }
+.icerik3{width: 600px; float: left; height: 550px;  margin-left: 30px; margin-top: 50px; }
+.icerik3 img{width: 600; margin-bottom: 10px;}
+.icerik3 h5{font-size:14; font-weight: bold;}
+.baslik1{margin: auto; width: 500px; margin-top: 200px; margin-bottom: 70px;}
+.baslik1 h2{font-size: 50px; margin-bottom: 10px;}
+.orticerik{margin-top: 50px; width: 1320px; height: 700px;}
+.icerik4{width:400px; height: 500px; float: left;margin-left: 30px;}
+.icerik4 img{width: 400px; margin-bottom: 10px;}
+.icerik4 h2{font-size: 20px; font-weight: bold;}
+.icerikalt{width: 1300px; height: 200px;}
+.solicerik{width: 300px;float: left; color: black; font-weight: bold;}
+.solicerik h1{font-size: 40px;}
+.sagicerik{width: 900px; float: right;margin-top: 30px;}
+.alt{margin-left: 450px;}
+
+/*-------------------------Solar Solutions--------------------------------------------------*/
+
+.baslik3{margin: auto; width: 200px; margin-bottom: 50px;}
+.baslik3 h2{font-size: 25px; font-weight: bold;}
+.span1{width: 400px; margin: auto; padding: auto; margin-bottom: 50px;}
+.resim1{width: 1300px; margin: auto; height: 400px; margin-bottom: 50px;}
+.resim1 img{height: 400px; width: 1300px; }
+.icerik{width: 1300px; height: 400px;}
+.icicerik{width: 600px; float: left;}
+.icicerik h2{padding-bottom: 10px; padding-top: 10px; font-weight: bold;}
+.icicerik ul{margin-left: 20px;}
+.resim2{width: 1400px; height: 600px;}
+.resim2 img{height: 600px; width: 1300px;}
+/*------------------------------SCHEDULE A CONSULTATION-------------------------------------*/
+.baslik4{margin: auto; width: 200px; margin-bottom: 50px;}
+.baslik4 h2{font-size: 30px; font-weight: bold;}
+.icicerik1{width: 600px; float: left;}
+.icicerik1 h2{padding-bottom: 10px; padding-top: 10px; font-weight: bold;}
+.icicerik1 ul{margin-left: 20px;}
+/*-----------------------------------------------Resources------------------------------------------------------------------------*/
+.span2{width: 1000px; margin: auto; padding: auto; margin-bottom: 50px;}
+.icerik2{width: 1300px; height: 400px; margin-bottom: 50px;}
+.resim2{width: 300px; float: left; height: 200px; }
+.yazı{width: 800px; height: 170px; padding-left: 20px; float: right; padding-top: 40px;}
+.resim2 img{width: 300px; height: 200px;}
+.icicerik2{width: 1300px; height: 200px; margin-bottom: 50px;}
+.ic{float: left; height: 300px;}
+.genel1{height: 1650px; width: 1300px; margin: auto; margin-top: 20px;}
+.buto{
+background-color:white;
+border: 1px solid black;
+display:inline-block;
+cursor:pointer;
+text-decoration: none;
+color:black;
+font-family:Arial;
+font-size:15px;
+    padding-top:10px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+    height: 30px;
+    margin-top: 10px;
+}
+.buto:hover {
+background-color:black;
+    color: white;
+}
+.buto:active {
+position:relative;
+top:1px;
+}
+/*-------------------------------contact-us----------------------*/
+.baslik5{font-size: 40px; font-weight: bold; width: 600px; height: 40px; float: left;}
+.genel2{width: 1300px; margin: auto; height: 800px;}
+.b{float: left; width: 600px; margin-top: 20px;}

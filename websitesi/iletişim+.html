@@ -1,0 +1,103 @@
+<html>
+<head>
+    <title>WEB PERFORMANS</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stayle.css">
+    
+</head>
+<body>
+    <header>
+         <div class="logo">
+            <a href="index+.html"><img src="images/logo.png" width="200px" height="150"/></a>
+        </div>
+      <div  class="yatayacilir-menu">
+        <ul>
+        <li><a href="ileti%C5%9Fim+.html">Bağlantı</a></li>
+        <li><a href="kaynaklar+.html">Kaynaklar</a></li>
+        <li><a href="#">Güneş Enerjisi</a>
+        <ul>
+        <li><a href="G%C3%9CNE%C5%9E%20ENERJ%C4%B0S%C4%B0+.html">Güneş Enerjisi</a></li>
+        <li><a href="DANI%C5%9EMA%20PROGRAMI+.html">Danışma ve Planlama</a></li>
+        </ul>
+        </li>
+        <li><a href="hakk%C4%B1m%C4%B1zda+.html">Hakkımızda</a></li>
+        <li><a href="index+.html">Anasayfa</a></li>
+        </ul>
+        </div>    
+    
+    </header>
+    
+    <div class="genel2">  <div class="a">
+        <div class="baslik5">
+            <h2>ÖFİSİMİZ</h2><br>
+             <ul style="font-size: 19px;">
+               <li>Oslo Science Park</li> <br>
+               <li>Gaustadalléen 21</li> <br>
+               <li>0349 Oslo</li> <br>
+               <li>Norway</li> <br>
+           </ul>
+        </div>
+        </div>
+        <div class="a">
+    <div id="googleMap" style="width:700px;height:400px;"></div>
+</div>
+        <div class="b">
+            <h2 style="font-size: 30px;">Bizimle iletişime geçin</h2>
+            <p>Çalışmamıza katılmak istiyorsanız, ofisiniz için yenilenebilir enerji seçenekleri hakkında daha fazla bilgi edinmek veya merhaba demek istiyorsanız, lütfen bizimle iletişime geçin. Bizi yukarıdaki adreste bulabilirsiniz ya da bu sayfadaki formu kullanabilirsiniz. Normalde birkaç gün içinde size geri döneceğiz.</p>
+        </div>
+        
+        <div class="b" style="float: right;"><form action="/action_page.php">
+                  Organizasyon adı *<br> <input type="text" name="fname"><br>
+                  Ülke yeri *<br> <input type="text" name="lname"><br>
+                  Adınız *<span style="margin-left: 120px;">Soyadınız *</span><br> <input type="text" name="fname"> <input type="text" name="lname"><br><br>
+                  Eposta Adresiniz *<br> <input type="text" name="lname"><br>
+                  Hangi çözüm sizi en çok ilgilendirir *<br>
+                   <input list="browsers">
+                <datalist id="browsers">
+                  <option value="Power Purchase Agreement">
+                  <option value="Energy Services Agreement">
+                  <option value="Least to own">
+                  <option value="Purchase">
+                </datalist><br>
+                   Mesaj *<br>
+                   <textarea style="width: 500px; height: 50px;"></textarea><br>
+                   <a class="buton" href="">Gönder</a>
+                </form></div>
+    </div>
+    <footer>   
+        <div class="footer">
+        <nav>  
+            <ul>  
+                <li>HAKKINDA
+                <ul>
+                <li><a href="#">HAKKIMIZDA</a></li>
+                <li><a href="#">DEĞER TANIMIMIZ</a></li>
+                <li><a href="#">NEDEN GÜNEŞ</a></li>
+                </ul>
+                </li>
+                <li>TEKNİK
+                 <ul>
+                <li><a href="#">GÜNEŞ ENERJİSİ</a></li>
+                <li><a href="#">KAYNAKLAR</a></li>
+                <li><a href="#">DANIŞMA VE PLANLAMA</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>   
+        </div> 
+    </footer>
+    
+    
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+</html>
